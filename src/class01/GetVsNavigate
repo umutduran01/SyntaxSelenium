@@ -1,0 +1,3 @@
+- We can use both .get() or .navigte() to open the browser and go to the first website.
+- We can also use .to() or .back() methods with navigate only. With .get(), we cannot use those methods.
+- .get() will wait until the whole webpage is loaded but .navigate() will not.

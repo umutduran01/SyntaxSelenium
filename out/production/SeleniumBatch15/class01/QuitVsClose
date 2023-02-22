@@ -1,0 +1,1 @@
+- .close() will only close the current tab but .quit() closes the whole browser.
