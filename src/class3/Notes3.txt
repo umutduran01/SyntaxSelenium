@@ -1,0 +1,20 @@
+*Xpath;
+
+ 1)Relative Xpath:
+
+    a) finding by attribute
+
+ //tagname[@attribute='attribube value']: get me the "tagname", which has an "attribute" whose value is "attribute value"
+
+ Example: <input name="abra"/> => //input[@name='abra']
+
+ Xpath has some more features such as find by text find by partial text etc.
+ Concept remains same but only the syntax changes.
+
+    b) finding by text
+
+ //tagname[text()='text value']
+
+ Example: <button id="tro", class="fyo"> hello </button> => //button[text()='hello']
+
+    c) finding by contain methods

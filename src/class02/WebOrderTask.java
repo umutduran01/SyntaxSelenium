@@ -15,7 +15,7 @@ public class WebOrderTask {
 
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
 
-        //Maximize the screen. It is always a good practice because if we don't do that, some of the elements may not be interacteble.
+        //Maximize the screen. It is always a good practice because if we don't do that, some of the elements may not be interactable.
 
         driver.manage().window().maximize();
 
