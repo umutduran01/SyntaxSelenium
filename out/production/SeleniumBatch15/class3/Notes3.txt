@@ -50,8 +50,8 @@
 
 
     --------------------------------------------------------------------------------------------------------------------
-    Absolut xpath: usually it is not used in industry. it refers the exact pin point of the element we are looking for.
+
+2) Absolut Xpath: usually it is not used in industry. it refers the exact pin point of the element we are looking for.
 
     /html/body/x/y/z[3] - also includes index.
 
-    --------------------------------------------------------------------------------------------------------------------

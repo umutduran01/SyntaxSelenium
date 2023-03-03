@@ -1,0 +1,29 @@
+1) Get an Element using CSS
+    syntax: tagname[attribute = 'attribute value']
+
+    or
+
+    we can also use shortcuts in CSS
+
+    for example:
+
+    a)class name = tagname[className = 'value'] in stead of this we can write "tagName.value" - "." means class name here.
+
+    b)ID = tagname[id = "value"] in stead of this we can write "tagName#value" - "#"
+
+    *In CSS we do not have an option of getting element by text but it has a contains method. Syntax is tagName[attribute *= 'partial value'] where "*" means contains here.
+
+    * CSS also has a method called starts-with. Tag is tagName[attribute ^= 'starting value'] - "^"
+
+    * CSS has a method called ends-with. Tag is tagName[attribute $= 'ending value'] - "$"
+
+2) Working with Radio Buttons
+
+    a) Locate the element
+    b) Write a locator for it
+    c) Use driver.findElement to in that in code
+    d) click on it
+
+    isEnabled()--> check if the radio button can be selected or not  (if not selectable usually it is greyed out.)
+    isDisplayed() --> checks if the webElment is displayed on the page or not
+    isSelected()-->checks if the radio button is selected or not (return true if selected)
