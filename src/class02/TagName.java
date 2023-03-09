@@ -19,5 +19,6 @@ public class TagName {
 
         driver.findElements(By.tagName("a")); //To find relevant tag on a webpage, we use ctrl+f and search //tag
 
+
     }
 }

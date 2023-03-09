@@ -51,7 +51,11 @@
 
     --------------------------------------------------------------------------------------------------------------------
 
-2) Absolut Xpath: usually it is not used in industry. it refers the exact pin point of the element we are looking for.
+2) Absolut (Native) Xpath: usually it is not used in industry. it refers the exact pin point of the element we are looking for.
 
     /html/body/x/y/z[3] - also includes index.
+
+    !! Class can have more than one value and they can be divided by space but id or name can have only one value.
+
+    !!Id will always be unique. Name can be 99% unique.
 

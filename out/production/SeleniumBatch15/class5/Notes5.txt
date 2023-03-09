@@ -1,0 +1,33 @@
+Dropdown Menu:
+    There are 2 types:
+        1)Single select
+        2)Multi select
+
+    There is a class to deal with dropdown menus: Select clase. To use this class, the dropdown menu
+    code must be place in <select> tag in DOM.
+
+    Approach in Single Drop Down:
+        1)Inspect the Dorp Down
+        2)Check if it uses select tag
+        3)Write a proper locator
+        4)Decleare an object of select class
+        5)Use methods from select class
+
+    Approach in Single Drop Down:
+
+        1)Inspect the Dorp Down
+        2)Check if it uses select tag
+        3)Write a proper locator
+        4)Decleare an object of select class (pass Web elements in the parameters)
+        5)Use methods from select class
+
+Alerts:
+    Alerts are pop ups that appear without dealing with them. We cannot inspect them.
+
+    There are 3 types of alerts:
+        1)JavaScript Alerts - On browser (We deal with them with SwitchTo commands)
+            a)Simple Alert - Only ok button
+            b)Confirmation Alert - Ok or Cancel buttons
+            c)Prompt Alert - Alerts with text boxes
+        2)HTML base alerts/pop ups - On website (We can deal with them in the same way we deal with the others)
+        3)Window based - We cannot deal with them on Selenium.
