@@ -1,0 +1,23 @@
+//title - to find title in DOM.
+
+iFrame:
+    We can swicth to an iFrame;
+    1)byIndex;
+    2)byName;
+    3)byFinding the webElement or using Locator.
+
+ Waits:
+    There are two types of waits.
+    1)Implicit Wait: it waits for the WebElement to be until timeout.
+        Declare it only once in the starting of your code. Optimum time may be 20 second.
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        It is also called as global wait
+
+        Eğer ilgili kodu butona tıklamadan bulamıyorsak bu metdo kullanırız.
+
+    2)Explicit Wait: It is a conditional wait. We give conditions such as wait for the element to be visible,
+    to be clickable, to be enable.
+
+    Eğer kod orada değil ise ama hala kodu bulabiliyorsak bu metdou kullanırız.

@@ -31,3 +31,6 @@ Alerts:
             c)Prompt Alert - Alerts with text boxes
         2)HTML base alerts/pop ups - On website (We can deal with them in the same way we deal with the others)
         3)Window based - We cannot deal with them on Selenium.
+
+WindowHandle:
+    This is an unique code for every window. When we check and confirm by its title, we can focus on that window.
